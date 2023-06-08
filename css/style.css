@@ -65,3 +65,11 @@ section#redes-sociais img:hover {
 	box-shadow: 5px 5px 10px green;
 	transition: transform 0.5s, border 1s;
 }
+
+@media screen and (max-width: 650px){
+	section#redes-sociais {
+		margin-right: 10px auto;
+		display: flex;
+		justify-items: center;
+   }
+}
